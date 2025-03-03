@@ -1621,5 +1621,6 @@ input[type=radio]:checked + label::before {
   .cart__batton {
     margin-left: 26px;
     height: 41px;
+    color: black;
   }
 }/*# sourceMappingURL=style.css.map */
