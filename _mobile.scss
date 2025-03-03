@@ -214,7 +214,7 @@
 
 
     .cart__content{
-        grid-column: span 1;
+        grid-column: span 12;
     }
 
     .cart__name-box{
@@ -222,9 +222,7 @@
     }
 
     .cart__item {
-        justify-content: flex-start;
         border-top: 0.5px solid rgb(202, 205, 216);
-        width: 343px;
     }
 
     .cart__text {
@@ -270,7 +268,7 @@
             border-radius: 50px;
             color: #FFFFFF;
             background-color: black;
-            margin-left: 4px;
+          
         }
     }
 
@@ -279,7 +277,7 @@
 
     .cart__form {
         width: 347px;
-
+        grid-column: span 12;
     }
 
     .cart__batton {

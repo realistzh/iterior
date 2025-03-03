@@ -36,7 +36,9 @@
             height: 41px;
         }
 
-       
+        &__form {
+            width: 380px;
+        }
     }
 
 
@@ -79,7 +81,7 @@
         }
 
         &__form {
-            grid-column: span 2;
+            width: 380px;
         }
 
 

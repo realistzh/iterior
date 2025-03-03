@@ -1413,6 +1413,9 @@ input[type=radio]:checked + label::before {
     width: 289px;
     height: 41px;
   }
+  .cart__form {
+    width: 380px;
+  }
   .push__cart-batton2 {
     color: #FFFFFF;
     background-color: black;
@@ -1433,7 +1436,7 @@ input[type=radio]:checked + label::before {
     grid-column: span 4;
   }
   .cart__form {
-    grid-column: span 2;
+    width: 380px;
   }
   .cart__batton {
     width: 289px;
@@ -1573,15 +1576,13 @@ input[type=radio]:checked + label::before {
     margin-top: 14px;
   }
   .cart__content {
-    grid-column: span 1;
+    grid-column: span 12;
   }
   .cart__name-box {
     display: none;
   }
   .cart__item {
-    justify-content: flex-start;
     border-top: 0.5px solid rgb(202, 205, 216);
-    width: 343px;
   }
   .cart__text {
     font-size: 12px;
@@ -1612,10 +1613,10 @@ input[type=radio]:checked + label::before {
     border-radius: 50px;
     color: #FFFFFF;
     background-color: black;
-    margin-left: 4px;
   }
   .cart__form {
     width: 347px;
+    grid-column: span 12;
   }
   .cart__batton {
     margin-left: 26px;
